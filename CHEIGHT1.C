@@ -1,5 +1,5 @@
 //C program to accept height of a person in centimeter and categorize the
-//person according to their height.
+//person according to their height .
 
 #include<stdio.h>
 #include<conio.h>
