@@ -8,7 +8,7 @@ void main()
  int n,i,count=0;
  long int sum=0;
  clrscr();
- printf("\n Enter the no. of terms (Maximum limit 250 terms): ");
+ printf("\n Enter the no. of terms (Maximum limit 250 terms) : ");
  scanf("%d",&n);
  printf("\n The %d terms of odd natural numbers are : ",n);
  for(i=1;i<500;i++)
