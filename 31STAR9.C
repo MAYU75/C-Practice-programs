@@ -12,13 +12,13 @@ void main()
     int i,a[]={7,5,8,9,6,8,5,7,4,6},size,max,temp;
     clrscr();
     size=sizeof(a)/sizeof(a[0]);
-    max=a[size-1];
-    a[size-1]=0;
     printf("\nThe given array is: ");
     for(i=0;i<size;i++)
     {
       printf("%d ",a[i]);
     }
+    max=a[size-1];
+    a[size-1]=0;
     for(i=size-2;i>=0;i--)
     {
       temp=a[i];
